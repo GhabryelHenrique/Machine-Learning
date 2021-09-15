@@ -11,8 +11,8 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from keras.preprocessing import image
 
 # Diretório com as imagens de cavalos e humanos para treinamento 
-train_house_dir = os.path.join('C:\\Users\\ghabr\\Desktop\\Estudos\\Machine_Learning\\Rede_Neural\\Dataset\\horses\\')
-train_humans_dir = os.path.join('C:\\Users\\ghabr\\Desktop\\Estudos\\Machine_Learning\\Rede_Neural\\Dataset\\humans\\')
+train_house_dir = os.path.join('C:\\horses\\')
+train_humans_dir = os.path.join('C:\\humans\\')
 
 model = tf.keras.models.Sequential([
     # Formaro do input é de 300x300 com 3 bytes de cor cor
@@ -59,7 +59,7 @@ train_datagen = ImageDataGenerator(rescale=1/255)
 
 # Imagens de treinamento de fluxo em lotes de 128 usando o train_datagen generator
 train_generator = train_datagen.flow_from_directory(
-        'C:\\Users\\ghabr\\Desktop\\Estudos\\Machine_Learning\\Rede_Neural\\Dataset\\',  # Diretório de imagens de treinamento
+        'C:\\Dataset\\',  # Diretório de imagens de treinamento
         target_size=(300, 300),  # Todas as imagens em 300x300
         batch_size=128,
         # estamos usando o binary_crossentropy loss, então precisamos de rótulos binários
@@ -83,7 +83,7 @@ plt.ylabel('Accuracy de treinamento', fontsize=15)
 plt.show()
 
 #Fazendo uma Predição com nosso modelo
-path_img = 'C:\\Users\\ghabr\\Desktop\\Estudos\\Machine_Learning\\Rede_Neural\\Teste\\'
+path_img = 'C:\\Teste\\'
 
 for arquivo in glob.glob(os.path.join(path_img, '*')): #para pegar todas as imagens da pasta
     img = image.load_img(arquivo, target_size=(300, 300)) #Loanding da Imagem
