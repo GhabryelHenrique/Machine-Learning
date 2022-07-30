@@ -1,14 +1,14 @@
 # Machine Learning 🧠
-Nesse diretório eu criei uma inteligência artificial que eu aprendi no "Minicurso: Introdução a Inteligência Artificial em Python", do PET Física Licenciatura da UFU - Universidade de Uberlândia. Disponivel em: https://youtu.be/6ly1KKobfOA. Essa rede neural define se alguma coisa é um humano ou um cavalo.
+In this directory I created an artificial intelligence that I learned in the "Minicourse: Introduction to Artificial Intelligence in Python", from UFU - Federal University of Uberlândia. Available in: https://youtu.be/6ly1KKobfOA. This neural network defines whether something is a human or a horse.
 
-Download do Dataset: https://storage.googleapis.com/laurencemoroney-blog.appspot.com/horse-or-human.zip
+Download Dataset: https://storage.googleapis.com/laurencemoroney-blog.appspot.com/horse-or-human.zip
 
-# Bibliotecas utilizadas 📚
+# Libraries used 📚
 
-- TensorFlow: O TensorFlow é uma plataforma completa de código aberto para machine learning. Ele tem um ecossistema abrangente e flexível de ferramentas, bibliotecas e recursos da comunidade que permite aos pesquisadores levar adiante ML de última geração e aos desenvolvedores criar e implantar aplicativos com tecnologia de ML.
+- TensorFlow: TensorFlow is a complete open source platform for machine learning. It has a comprehensive and flexible ecosystem of tools, libraries, and community resources that enable researchers to advance next-generation ML and developers to build and deploy ML-powered applications.
 
-- NumPy: NumPy é o pacote fundamental para computação científica em Python. É uma biblioteca Python que fornece um objeto de matriz multidimensional, vários objetos derivados (como matrizes e matrizes mascaradas) e uma variedade de rotinas para operações rápidas em matrizes, incluindo matemática, lógica, manipulação de forma, classificação, seleção, E / S , transformadas discretas de Fourier, álgebra linear básica, operações estatísticas básicas, simulação aleatória e muito mais.
+- NumPy: NumPy is the foundational package for scientific computing in Python. It is a Python library that provides a multidimensional array object, various derived objects (such as arrays and masked arrays), and a variety of routines for quick operations on arrays, including math, logic, shape manipulation, sorting, selection, I/O, discrete Fourier transforms, basic linear algebra, basic statistical operations, random simulation and much more.
 
-- MatPlotLib: Matplotlib é uma biblioteca de software para criação de gráficos e visualizações de dados em geral, feita para e da linguagem de programação Python e sua extensão de matemática NumPy.
+- MatPlotLib: Matplotlib is a software library for creating graphs and general data visualizations, made for and from the Python programming language and its NumPy math extension.
 
-- Keras: Keras é uma API projetada para seres humanos, não máquinas. Keras segue as práticas recomendadas para reduzir a carga cognitiva: oferece APIs consistentes e simples, minimiza o número de ações do usuário necessárias para casos de uso comuns e fornece mensagens de erro claras e acionáveis. Ele também possui uma extensa documentação e guias do desenvolvedor.
+- Keras: Keras is an API designed for humans, not machines. Keras follows best practices to reduce cognitive load: it offers consistent and simple APIs, minimizes the number of user actions required for common use cases, and provides clear, actionable error messages. It also has extensive documentation and developer guides.
